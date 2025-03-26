@@ -49,7 +49,7 @@ export default function Footer() {
               <Link href="/" className="flex items-center gap-2 font-bold text-2xl mb-4">
                 {/* <Server className="h-6 w-6" />
                 <span>Zyphron</span> */}
-                <img src="/Zyphron1.PNG" alt="Zyphron_Logo" className="w-20 h-15"/>
+                <img src="/Zyphronlogo.png" alt="Zyphron_Logo" className="w-20 h-15"/>
               </Link>
               <p className="text-primary-foreground/80 mb-6 max-w-md">
                 Transforming business through technology. We provide comprehensive IT solutions to help your
