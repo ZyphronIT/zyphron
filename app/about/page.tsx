@@ -29,7 +29,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold tracking-tighter">Transforming Businesses Through Technology</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded in 2000, Zyphron has grown from a small IT support company to a leading provider of
+                  Zyphron has grown from a small IT support company to a leading provider of
                   comprehensive IT solutions across Australia. Our journey has been driven by a passion for technology
                   and a commitment to helping businesses thrive in an increasingly digital world.
                 </p>
@@ -251,7 +251,7 @@ export default function AboutPage() {
                       <CheckCircle className="h-4 w-4 text-secondary" />
                     </div>
                     <div>
-                      <p className="font-medium">2000</p>
+                      <p className="font-medium"></p>
                       <p className="text-sm text-muted-foreground">
                         Founded in Sydney with a team of 5 IT professionals
                       </p>

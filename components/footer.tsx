@@ -49,10 +49,10 @@ export default function Footer() {
               <Link href="/" className="flex items-center gap-2 font-bold text-2xl mb-4">
                 {/* <Server className="h-6 w-6" />
                 <span>Zyphron</span> */}
-                <img src="/Zyphron.jpg" alt="Zyphron_Logo" className="w-20 h-15"/>
+                <img src="/Zyphron1.PNG" alt="Zyphron_Logo" className="w-20 h-15"/>
               </Link>
               <p className="text-primary-foreground/80 mb-6 max-w-md">
-                Transforming business through technology since 2000. We provide comprehensive IT solutions to help your
+                Transforming business through technology. We provide comprehensive IT solutions to help your
                 business operate efficiently and securely.
               </p>
               <div className="flex gap-4">
@@ -156,15 +156,16 @@ export default function Footer() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <MapPin className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
-                  <span className="text-primary-foreground/80">123 Tech Street, Sydney, NSW 2000, Australia</span>
+                  <span className="text-primary-foreground/80">16 John Markwell Pde, Daisy Hill 4127 QLD AUS
+</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Phone className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
-                  <span className="text-primary-foreground/80">+61 2 1234 5678</span>
+                  <span className="text-primary-foreground/80">+61 423260050</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Mail className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
-                  <span className="text-primary-foreground/80">info@zyphron.com.au</span>
+                  <span className="text-primary-foreground/80">digitalhub@zyphron.com.au</span>
                 </li>
               </ul>
             </div>

@@ -85,7 +85,7 @@ export default function ContactPage() {
                         id="phone"
                         type="tel"
                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                        placeholder="+61 2 1234 5678"
+                        placeholder="+61 423260050"
                       />
                     </div>
                     <div className="space-y-2">
@@ -149,18 +149,19 @@ export default function ContactPage() {
                   <CardContent>
                     <div className="grid gap-6">
                       <div className="space-y-2">
-                        <h3 className="font-bold">Sydney (Headquarters)</h3>
+                        <h3 className="font-bold">Brisbane (Headquarters)</h3>
                         <div className="flex items-start gap-4">
                           <div className="rounded-full bg-primary/10 p-1">
                             <MapPin className="h-5 w-5 text-primary" />
                           </div>
-                          <p className="text-sm text-muted-foreground">123 Tech Street, Sydney, NSW 2000, Australia</p>
+                          <p className="text-sm text-muted-foreground">16 John Markwell Pde, Daisy Hill 4127 QLD AUS
+</p>
                         </div>
                         <div className="flex items-start gap-4">
                           <div className="rounded-full bg-primary/10 p-1">
                             <Phone className="h-5 w-5 text-primary" />
                           </div>
-                          <p className="text-sm text-muted-foreground">+61 2 1234 5678</p>
+                          <p className="text-sm text-muted-foreground">+61 423260050</p>
                         </div>
                       </div>
 
@@ -171,32 +172,32 @@ export default function ContactPage() {
                             <MapPin className="h-5 w-5 text-primary" />
                           </div>
                           <p className="text-sm text-muted-foreground">
-                            456 Digital Avenue, Melbourne, VIC 3000, Australia
+                            NA
                           </p>
                         </div>
                         <div className="flex items-start gap-4">
                           <div className="rounded-full bg-primary/10 p-1">
                             <Phone className="h-5 w-5 text-primary" />
                           </div>
-                          <p className="text-sm text-muted-foreground">+61 3 9876 5432</p>
+                          <p className="text-sm text-muted-foreground">+61 000000000</p>
                         </div>
                       </div>
 
                       <div className="space-y-2">
-                        <h3 className="font-bold">Brisbane</h3>
+                        <h3 className="font-bold">Sydney</h3>
                         <div className="flex items-start gap-4">
                           <div className="rounded-full bg-primary/10 p-1">
                             <MapPin className="h-5 w-5 text-primary" />
                           </div>
                           <p className="text-sm text-muted-foreground">
-                            789 Innovation Road, Brisbane, QLD 4000, Australia
+                           NA
                           </p>
                         </div>
                         <div className="flex items-start gap-4">
                           <div className="rounded-full bg-primary/10 p-1">
                             <Phone className="h-5 w-5 text-primary" />
                           </div>
-                          <p className="text-sm text-muted-foreground">+61 7 3456 7890</p>
+                          <p className="text-sm text-muted-foreground">+61 0 0000 0000</p>
                         </div>
                       </div>
                     </div>
@@ -215,7 +216,7 @@ export default function ContactPage() {
                         </div>
                         <div>
                           <h3 className="font-bold">Email</h3>
-                          <p className="text-sm text-muted-foreground">info@zyphron.com.au</p>
+                          <p className="text-sm text-muted-foreground">digitalhub@zyphron.com.au</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4">
@@ -225,7 +226,7 @@ export default function ContactPage() {
                         <div>
                           <h3 className="font-bold">Support Hotline</h3>
                           <p className="text-sm text-muted-foreground">
-                            1300 123 456 (24/7 for managed service clients)
+                            0000 000 000 (24/7 for managed service clients)
                           </p>
                         </div>
                       </div>

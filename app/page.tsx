@@ -21,6 +21,14 @@ import {
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
+const image = [
+  "/alibaba.png",
+  "/amazon.png",
+  "/azure.png",
+  "/google.png",
+  "/ibm.png"
+]
+
 export default function Home() {
   return (
     <main className="flex-1">
@@ -31,7 +39,7 @@ export default function Home() {
             <div className="flex flex-col justify-center space-y-6">
               <div className="space-y-4">
                 <div className="inline-block bg-secondary/20 px-3 py-1 text-sm text-secondary rounded-full">
-                  Trusted IT Partner Since 2000
+                  Trusted IT Partner
                 </div>
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
                   Transforming Business Through Technology
@@ -67,8 +75,10 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="relative h-[400px] w-full max-w-[500px] rounded-lg bg-primary-light p-4 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
+              <div className="relative h-[400px] w-full max-w-[500px] rounded-lg p-4 overflow-hidden">
+              {/* <div className="relative h-[400px] w-full max-w-[500px] rounded-lg bg-primary-light p-4 overflow-hidden"> */}
+
+                {/* <div className="absolute inset-0 flex items-center justify-center">
                   <Server className="h-24 w-24 text-secondary animate-pulse" />
                 </div>
                 <div className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1/4 h-20 w-20 rounded-full bg-secondary/20 flex items-center justify-center">
@@ -79,7 +89,8 @@ export default function Home() {
                 </div>
                 <div className="absolute bottom-0 right-1/4 -translate-y-1/4 h-14 w-14 rounded-full bg-secondary/20 flex items-center justify-center">
                   <Globe className="h-7 w-7 text-secondary" />
-                </div>
+                </div> */}
+          <img src="/Hero.png" alt="Hero Image" className="h-[300px] w-full max-w-[500px] rounded-lg"/>
               </div>
             </div>
           </div>
@@ -87,7 +98,7 @@ export default function Home() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="bg-muted py-12">
+      {/* <section className="bg-muted py-12">
         <div className="container px-4 md:px-6">
           <div className="text-center mb-8">
             <h2 className="text-2xl font-bold text-primary">Trusted By Industry Leaders</h2>
@@ -100,7 +111,26 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section> */}
+
+<section className="bg-muted py-12">
+        <div className="container px-4 md:px-6">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold text-primary">Trusted By Industry Leaders</h2>
+          </div>
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+            {image.map((i) => (
+              <div key={i} className="h-12 w-32 rounded-md flex items-center justify-center">
+                <span className="text-muted-foreground font-medium">
+                  <img className="h-25 w-50" src={i} alt="image"></img>
+                  </span>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
+
+
 
       {/* Services Section */}
       <section className="py-20 md:py-32">
@@ -772,7 +802,7 @@ export default function Home() {
                       id="phone"
                       type="tel"
                       className="mt-1 block w-full rounded-md border-muted bg-background px-3 py-2 text-sm"
-                      placeholder="+61 2 1234 5678"
+                      placeholder="+61 423260050"
                     />
                   </div>
                   <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90">Submit</Button>
@@ -845,4 +875,5 @@ export default function Home() {
     </main>
   )
 }
+
 

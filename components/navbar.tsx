@@ -169,7 +169,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center gap-2 font-bold text-2xl text-primary">
               {/* <Server className="h-7 w-7" />
               <span>Zyphron</span> */}
-              <img src="/Zyphron.jpg" alt="Zyphron_Logo" className="w-20 h-15"/>
+              <img src="/Zyphron.JPG" alt="Zyphron_Logo" className="w-20 h-15"/>
             </Link>
             <nav className="hidden lg:flex gap-8">
               <Link
