@@ -229,7 +229,9 @@ export default function Navbar() {
                 <button
                   className={`flex items-center gap-1 text-base font-medium transition-colors hover:text-primary ${pathname.startsWith("/blog") ||
                       pathname.startsWith("/case-studies") ||
-                      pathname.startsWith("/resources")
+                      pathname.startsWith("/resources") ||
+                      pathname.startsWith("resources/whitepapers")
+
                       ? "text-primary"
                       : "text-muted-foreground"
                     }`}
@@ -384,14 +386,15 @@ export default function Navbar() {
                     </Collapsible>
 
                     <Collapsible
-                      open={openCollapsible === "resources"}
+                      open={openCollapsible === "`resources"}
                       onOpenChange={() => toggleCollapsible("resources")}
                     >
                       <CollapsibleTrigger className="flex items-center justify-between w-full">
                         <span
                           className={`text-base font-medium transition-colors hover:text-primary ${pathname.startsWith("/blog") ||
-                              pathname.startsWith("/case-studies") ||
-                              pathname.startsWith("/resources")
+                              pathname.startsWith("Resources/case-studies") ||
+                              pathname.startsWith("/resources")||
+                              pathname.startsWith("Resources/whitepapers")
                               ? "text-primary"
                               : "text-muted-foreground"
                             }`}

@@ -251,7 +251,7 @@ export default function AboutPage() {
                       <CheckCircle className="h-4 w-4 text-secondary" />
                     </div>
                     <div>
-                      <p className="font-medium"></p>
+                      <p className="font-medium">2000</p>
                       <p className="text-sm text-muted-foreground">
                         Founded in Sydney with a team of 5 IT professionals
                       </p>

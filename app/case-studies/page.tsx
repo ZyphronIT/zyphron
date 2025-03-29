@@ -487,7 +487,7 @@ export default function CaseStudiesPage() {
                     Schedule a Consultation
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <Button size="lg" variant="outline" className="border-primary-foreground/20">
+                  <Button size="lg" variant="outline" className="border-primary-foreground/20 hover:bg-primary-light text-black">
                     View All Case Studies
                   </Button>
                 </div>
